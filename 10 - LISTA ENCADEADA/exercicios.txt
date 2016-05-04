@@ -1,0 +1,31 @@
+Exercícios com lista encadeada
+
+1. Para implementarmos uma pilha usando listas encadeadas é necessário guardarmos somente a referência inicial da lista como o topo da pilha. Sendo assim para incluir um elemento na pilha basta criar um novo nodo incluí-lo na 1a. posição da lista. Para retirar um elemento da pilha basta basta criar um novo nodo incluí-lo na 1a. posição da lista. Para retirar um elemento da pilha basta retirar o 1o. elemento da lista mantendo o próximo elemento como topo. Implemente os métodos push e pop considerando que a classe nodo com um campo data do tipo int e um link já foi criada.
+ - void push(Nodo topo, int elem)
+ - int pop(Nodo topo)
+
+2. Construa um método que retire a duplicidade de elementos de uma lista ordenada cuja referência é passada como parâmetro. 
+
+3. Construa um método que transforme uma lista ligada convencional cuja referência é passada como parâmetro em uma lista circular. 
+
+4. Construa um método que concatene duas listas ligadas convencionais cujas referências são passadas como parâmetro. 
+
+5. Construa um método que conte e retorne a quantidade de elementos de uma lista ligada cuja referência é passada como parâmetro.
+
+6. Altere o método do exercício 5 de forma que este agora conte e retorne a quantidade de elementos de uma lista circular. 
+
+7. Construa um método recursivo que mostre os elementos de uma lista ligada convencional. 
+
+8. Construa um método que mostre os elementos de uma lista ligada convencional do último para o primeiro. 
+
+9. Construa um método que mostre os elementos de duas listas ordenadas cujas referências são passadas como parâmetro, intercalados de acordo com a ordem
+
+10. Construa um método que crie uma nova lista retornando sua referência a partir da intercalação de duas listas ordenadas cujas referências são passadas como parâmetro.
+
+11. Considere uma coleção de elementos dispostos em ordem num vetor e outra coleção de elementos armazenados em uma lista dinâmica ordenada. Seria viável implementarmos um algoritmo de busca binária para as duas coleções? Justifique sua resposta  
+
+12. Considerando que os métodos next, destroy e isempty já foram desenvolvidos codifique os métodos isfull para verificar se a fila circular está cheia e o método store para inserir um elemento na fila. 
+
+13. Considerando que os métodos destroy e isempty já foram desenvolvidos codifique o método store para incluir um elemento numa fila implementada com listas encadeadas onde a referência ao primeiro elemento é o front e a referência do último elemento da lista é o rear. 
+
+14. Compare as implementações desenvolvidas nas questões 12 e 13 quanto a espaço de memória e velocidade dos algoritmos.
